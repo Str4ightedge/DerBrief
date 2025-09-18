@@ -2,7 +2,7 @@ import streamlit as st
 import time
 
 st.title("Безмолвная симфония моего сердца")
-st.audio("Музыка для письма.mp3", format="audio/mp3")
+st.audio("https://www.dropbox.com/scl/fi/fqkvk8ppiirjntf2xj9ws/.mp3?rlkey=pt9pgkjqm2larcc7yvzla5cxp&st=gppw2f5j&dl=1", format="audio/mp3")
 
 # Инициализация состояния
 if "show_text" not in st.session_state:
@@ -28,6 +28,7 @@ if st.session_state.show_text:
     st.image("0.jpg", use_container_width=True)
     st.image("8.jpg", use_container_width=True)
     st.video("Untitled.mov")
+
 
 
 
