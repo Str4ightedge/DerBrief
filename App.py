@@ -27,7 +27,6 @@ if st.session_state.show_text:
         time.sleep(0.01)  
     st.image("0.jpg", use_container_width=True)
     st.image("8.jpg", use_container_width=True)
-    st.video("Untitled.mov")
 
 
 
